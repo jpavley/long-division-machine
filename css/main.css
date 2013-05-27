@@ -101,6 +101,7 @@ textarea {
 	margin: 10px;
 	padding: 0;
 	text-align: center;
+	line-height: 110%;
 }
 
 #command-bar {
@@ -113,18 +114,66 @@ textarea {
 	text-align: center;
 }
 
+#problem-input {
+	font-size:100%;
+	color: #336600;
+	font-weight: bold;
+	font-family: "courier new", monospace;
+	margin: 10px;
+	padding: 0;
+	text-align: center;
+}
 
+#problem-legend {
+	color: #0066ff;
+}
 
+form, 
+form ul, 
+form li,
+fieldset,
+textarea {
+	margin: 10px;
+	padding: 0;
+	line-height: 110%;
+}
 
+label,
+input,
+select,
+textarea,
+form li {
+	display: in-line;
+	text-align: right;
+}
 
+form ul,
+form li {
+	list-style-type: none;
+}
 
+form li {
+	clear: both;
+	height: 1%;
+	overflow: auto;
+}
 
+fieldset {
+	border: 0;
+}
 
+#problem-list {
+	display: inline-block;
+}
 
+input {
+	width: 10em;
+}
 
-
-
-
+#quotient-field {
+	border-style: dotted;
+	border-color: #cccccc;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */

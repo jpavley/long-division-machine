@@ -24,7 +24,17 @@
 
         <!-- Add your site or application content here -->
         <div id="product-name">Long Division Machine</div>
-        <div id="command-bar">+ << <- -> >> = ?</div>
+        <div id="problem-input">
+        	<form id="problem-form">
+        		<fieldset><legend><span id="problem-legend">Enter a very difficult division problem</span></legend></fieldset>			
+						<div id="problem-list"><ul>
+							<li><label for="dividen-field">Dividen </label><input type="text" name="dividen" id="dividen-field" value="12345.678" /></li>
+							<li><label for="divisor-field">÷ Divisor </label><input type="text" name="divisor" id="divisor-field" value="90" /></li>
+							<li><label for="quotient-field">= Quotient </label><input type="text" name="quotient" id="quotient-field" value="137.1742" disabled/></li>
+						</ul></div>
+        	</form>
+        </div>
+        <div id="command-bar">÷ << <- -> >> = ?</div>
 
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
