@@ -93,9 +93,25 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#product-name {
+	font-size:300%;
+	color: #9900cc;
+	font-weight: bold;
+	font-family: "courier new", monospace;
+	margin: 10px;
+	padding: 0;
+	text-align: center;
+}
 
-
-
+#command-bar {
+	font-size:200%;
+	color: #996600;
+	font-weight: bold;
+	font-family: "courier new", monospace;
+	margin: 10px;
+	padding: 0;
+	text-align: center;
+}
 
 
 
