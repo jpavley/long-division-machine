@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    John Pavley -- developer/designer -- @jpavley
+
+# THANKS
+
+    The folks at HTML5 Boilerplate
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr
